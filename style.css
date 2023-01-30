@@ -7,11 +7,15 @@ html,body {
     font-size: 10px;
     line-height: 3.5rem;
     font-weight: 300;
+    scroll-behavior: smooth;
 }
 
 h1,h2,h3,h4,h5,h6 {
 font-family: Roboto Condensed;
 }
+
+h1,h2,h3,h4,h5,h6:hover{cursor: default;}
+
 
 h1 {
         font-size: 9em ;
@@ -86,6 +90,10 @@ h5 {
     position: absolute;
     left: 10%;
     bottom: 100px;
+}
+
+.quote:hover {
+    cursor: default;
 }
 
 .dark-background {
@@ -239,4 +247,35 @@ width: 370px;
 .map-frame {
     height: 375px;
     width: 60%;
+}
+
+.slot-form-container {
+    width: 40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.slot-form-container label {
+    line-height: 15px;
+    margin: 5px;
+}
+
+.slot-form-container label, input {
+    height: 20px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+}
+
+.slot-form-container button {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    margin-top: 15px;
+}
+
+.slot-form-container button:hover{
+    cursor: pointer;
 }
